@@ -9,6 +9,7 @@ const DiscountTab = () => {
             <p> <NavigateBeforeIcon/>&nbsp; Get 10% off on business sign up  &nbsp;<NavigateNextIcon/> </p>
         </div>
         
+        
     </div>
   )
 }

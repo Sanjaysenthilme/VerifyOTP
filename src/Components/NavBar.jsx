@@ -89,11 +89,11 @@ const BurgarMenuClick = () =>{
       {open && (
         <div className="md:hidden bg-gray-200 w-full h-auto p-5">
           <ul className="flex flex-col items-center">
-            <li  className="text-xl p-2  hover:border-b-4 border-cyan-600 transition-all ease-in-out duration-200">Categories</li>
-            <li  className="text-xl p-2 hover:border-b-4 border-cyan-600 transition-all ease-in-out duration-200">Sales</li>
-            <li  className="text-xl p-2 hover:border-b-4 border-cyan-600 transition-all ease-in-out duration-200">Clearance</li>
-            <li  className="text-xl p-2 hover:border-b-4 border-cyan-600 transition-all ease-in-out duration-200">New Stock</li>
-            <li  className="text-xl p-2 hover:border-b-4 border-cyan-600 transition-all ease-in-out duration-200">Trending</li>
+          <Link to="/login-page" className="hover:border-b-4 border-cyan-600 transition-all ease-in-out duration-200"><li>Categories</li></Link>
+            <Link to="/login-page" className="hover:border-b-4 border-cyan-600 transition-all ease-in-out duration-200"><li>Sales</li></Link>
+            <Link to="/login-page" className="hover:border-b-4 border-cyan-600 transition-all ease-in-out duration-200"><li>Clearance</li></Link>
+            <Link to="/login-page" className="hover:border-b-4 border-cyan-600 transition-all ease-in-out duration-200"><li>New Stock</li></Link>
+            <Link to="/login-page" className="hover:border-b-4 border-cyan-600 transition-all ease-in-out duration-200"><li>Trending</li></Link>
           </ul>
         </div>
       )}
