@@ -8,6 +8,7 @@ const DiscountTab = () => {
         <div className="text-sm font-semibold h-10 bg-gray-100 p-2">
             <p> <NavigateBeforeIcon/>&nbsp; Get 10% off on business sign up  &nbsp;<NavigateNextIcon/> </p>
         </div>
+        
     </div>
   )
 }
